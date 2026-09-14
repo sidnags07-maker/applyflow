@@ -1,0 +1,10 @@
+.venv/
+funnel.db
+drafts/
+__pycache__/
+*.pyc
+.env
+application_profile.yaml
+application_answer_bank.md
+autofill_test.png
+profile.yaml

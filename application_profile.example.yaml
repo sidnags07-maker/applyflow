@@ -1,0 +1,28 @@
+# Standard application answers, saved so forms can be autofilled.
+# Copy to application_profile.yaml (git-ignored: it holds personal info).
+#
+#   cp application_profile.example.yaml application_profile.yaml
+
+full_name: "Your Name"
+email: "you@example.com"
+phone: "555-555-5555"
+pronouns: "They/Them"
+
+github: "https://github.com/your-username"
+linkedin: "https://www.linkedin.com/in/your-handle"
+
+current_location: "City, State, Country"
+school: "Your University"
+graduation_year: "2029"
+
+# Work authorization
+citizenship: "US citizen"
+work_authorized_us: true
+requires_sponsorship: false
+
+# Relocation
+willing_to_relocate: true
+
+# Absolute path to the resume file the autofiller uploads.
+# Many ATS parse PDF more reliably than .docx.
+resume_path: "/absolute/path/to/Your_Resume.pdf"

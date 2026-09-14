@@ -1,0 +1,7 @@
+requests>=2.31
+pyyaml>=6.0
+# optional draft backends (install whichever you'll use):
+#   Gemini (free tier)  -> pip install google-genai      # GEMINI_API_KEY
+#   Claude (paid)       -> pip install anthropic          # ANTHROPIC_API_KEY
+# google-genai>=0.3
+# anthropic>=0.40

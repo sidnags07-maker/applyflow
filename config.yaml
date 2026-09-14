@@ -1,0 +1,27 @@
+# job-apply-assistant configuration
+
+# Local funnel database and where drafts get written.
+db: funnel.db
+drafts_dir: drafts
+
+# Include roles the repo has marked closed (🔒/❌)? Usually no.
+include_closed: false
+
+# Hide advanced-degree roles (🎓 / PhD / Masters / MBA) from `next` and `list`?
+# You're an undergrad, so default yes. Override per-run with --include-grad.
+hide_grad: true
+
+# Who writes the drafts:
+#   auto     -> Gemini if a GEMINI_API_KEY/GOOGLE_API_KEY is set (free), else
+#               Claude if ANTHROPIC_API_KEY is set, else the offline template
+#   gemini   -> force Gemini      claude -> force Claude      template -> skeleton
+draft_provider: claude
+
+# Repos to pull with a bare `python apply.py sync`. Add the GitHub URL(s) of the
+# job-list repo(s) you follow. Any of these forms work:
+#   https://github.com/OWNER/REPO
+#   https://github.com/OWNER/REPO/blob/main/README.md
+#   https://raw.githubusercontent.com/OWNER/REPO/main/README.md
+repos:
+  # - https://github.com/SimplifyJobs/Summer2026-Internships
+  # - https://github.com/vanshb03/Summer2026-Internships

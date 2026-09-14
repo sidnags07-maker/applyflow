@@ -1,0 +1,23 @@
+# Your profile: the raw material for tailored drafts.
+# Copy to profile.yaml (git-ignored) and fill in your own details.
+#
+#   cp profile.example.yaml profile.yaml
+
+name: "Your Name"
+email: "you@example.com"
+tagline: "a Computer Science student who ships real projects"
+
+# Full URLs. Referenced in the letter body and rendered in the signature.
+github: "https://github.com/your-username"
+linkedin: "https://www.linkedin.com/in/your-handle"
+
+# 3-5 concrete, specific wins. Numbers and shipped things beat adjectives.
+highlights:
+  - "Shipped <project> to production, serving <N> <users/requests/items>."
+  - "Built <system> that <measurable outcome>."
+  - "Wrote <tool> end to end: <parse> to <persistence>."
+
+skills:
+  - "Python"
+  - "JavaScript / TypeScript"
+  - "SQL / data pipelines"
