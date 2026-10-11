@@ -1,4 +1,4 @@
-# job-apply-assistant
+# ApplyFlow
 
 A personal, **assisted** job-application funnel. Point it at a GitHub job-list
 repo (the popular SimplifyJobs / Pitt-CSC / vanshb03 internship lists, or your
